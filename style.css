@@ -1,0 +1,49 @@
+html {
+  height: 97%;
+}
+
+body {
+  height: 100%;
+  background-image: url("https://cdn.glitch.global/1cad1cd3-6138-43e0-b66f-f933fe068bdf/breadbg.png");
+  background-color: #0f0d21;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  font-family: "Segoe UI Variable", "Segoe UI", "Tahoma", "Verdana", "Arial";
+}
+
+.bread {
+  background-color: rgb(193, 71, 13);
+  border-color: rgb(244, 146, 0);
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+}
+
+.breadheader {
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  transform: translateY(-200%);
+}
+
+.breadcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+@media only screen and (max-width: 630px) {
+  body {
+    background-image: url("https://cdn.glitch.global/1cad1cd3-6138-43e0-b66f-f933fe068bdf/breadbgmobile.png");
+  }
+}
