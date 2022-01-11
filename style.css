@@ -4,7 +4,7 @@ html {
 
 body {
   height: 100%;
-  background-image: url("https://cdn.glitch.global/1cad1cd3-6138-43e0-b66f-f933fe068bdf/breadbg.png");
+  background-image: url("img/breadbg.png");
   background-color: #0f0d21;
   background-position: center;
   background-attachment: fixed;
@@ -44,6 +44,6 @@ body {
 
 @media only screen and (max-width: 630px) {
   body {
-    background-image: url("https://cdn.glitch.global/1cad1cd3-6138-43e0-b66f-f933fe068bdf/breadbgmobile.png");
+    background-image: url("img/breadbgmobile.png");
   }
 }
